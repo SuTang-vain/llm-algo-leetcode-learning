@@ -1,0 +1,13 @@
+============================================================
+Part 02 · 20 FlashAttention Sim | CPU 运行
+============================================================
+[seq=8, dim=4, block=2] 最大误差: 1.490116e-07
+[seq=5, dim=3, block=3] 最大误差: 1.192093e-07
+[seq=3, dim=2, block=1] 最大误差: 5.960464e-08
+block=1: 完整 score=16384; 单 tile=1
+block=4: 完整 score=16384; 单 tile=16
+block=16: 完整 score=16384; 单 tile=256
+block=32: 完整 score=16384; 单 tile=1024
+✅ Online Softmax 与分块计算逻辑正确！
+
+ FlashAttention 分块计算逻辑验证通过。
