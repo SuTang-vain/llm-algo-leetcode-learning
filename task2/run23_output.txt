@@ -1,0 +1,1 @@
+✅ 测试通过！接受、residual correction 和 bonus token 均通过。
