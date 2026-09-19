@@ -1,0 +1,15 @@
+初始化内存池...
+✅ Request 输入校验通过！
+✅ Prefill 测试通过！Req1 分配的块表: [0, 1]
+✅ 重复 Prefill 已拒绝！
+✅ Decode 动态分配测试通过！Req1 最新块表: [0, 1, 2]
+✅ Cache 拼装测试通过！多块物理缓存被正确恢复为逻辑连续序列。
+✅ 非连续物理块按逻辑顺序恢复通过！
+✅ 边界分配与截断测试通过！
+✅ OOM 测试通过！
+✅ Prefill 原子 OOM 测试通过！
+✅ Decode OOM 回滚测试通过！
+✅ KV Cache 账本与释放复用测试通过！
+
+✅ All Tests Passed! PagedAttention 内存管理逻辑验证通过。
+✅ Prefix Cache 扩展测试通过！
